@@ -1,0 +1,82 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      JUEGO
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+  
+
+  
+
+<ion-content fullscreen class="ion-padding"> 
+
+<ion-item color="success" >
+  <ion-avatar slot="start">
+    <img src="assets/icon/avatar.png">
+  </ion-avatar>
+  <ion-label>
+    3 EN RAYA
+  </ion-label>
+</ion-item>
+
+
+  <p>
+<ion-chip color="warning">
+  <ion-icon name="game-controller-outline"></ion-icon>
+<ion-label>TURNO:{{currentPlayer}}</ion-label>
+</ion-chip>
+</p>
+
+<p>
+<ion-chip outline color="danger">
+          <ion-label >GANADOR:{{ganador}}</ion-label>
+
+        </ion-chip>
+
+        </p>
+        <p>
+          <ion-button  (click)="newGame()" color="warning">REINICIAR</ion-button>
+        </p>
+      
+
+
+
+
+    <ion-grid class="board format">
+        <ion-row class="fontrow">
+            <ion-col class="fontcol">
+                <button  class="success"id="1" class="button" (click)="placeTile('1')"></button>
+            </ion-col >
+            <ion-col class="fontcol">
+                <button id="2" class="button" (click)="placeTile('2')"></button >
+            </ion-col>
+            <ion-col >
+                <button id="4" class="button " (click)="placeTile('4')"></button>
+            </ion-col>
+        </ion-row>
+        <ion-row class="fontrow">
+            <ion-col class="fontcol">
+                <button id="8" class="button " (click)="placeTile('8')"></button>
+            </ion-col >
+            <ion-col class="fontcol">
+                <button id="16" class="button" (click)="placeTile('16')"></button>
+            </ion-col>
+            <ion-col >
+                <button id="32" class="button button-large button-positive" (click)="placeTile('32')"></button>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col class="fontcol">
+                <button id="64" class="button button-large button-positive" (click)="placeTile('64')"></button>
+            </ion-col>
+            <ion-col class="fontcol">
+                <button class="button button-large button-positive" id="128" (click)="placeTile('128')"></button>
+            </ion-col>
+            <ion-col>
+                <button class="button button-large button-positive" id="256" (click)="placeTile('256')"></button>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>

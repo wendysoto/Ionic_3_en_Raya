@@ -1,0 +1,37 @@
+.fontcol{
+	    border-right: solid 1px black
+}
+.fontrow{
+	    border-bottom: solid 1px black;
+}
+
+.format{
+	text-align: -webkit-center;	    
+    margin-top: 10%;
+    color:black;
+    background-color: #37afac;
+
+}
+
+.jugadorX{
+	color: blue;
+    font-weight: bold;
+    background-color: mediumspringgreen;
+}
+
+
+.jugadorO{
+	color: red;
+    font-weight: bold;
+    background-color: #50c8ff;
+}
+
+button{
+	width:30px;
+    height:30px;
+    font-size: 30px;
+    color:black;
+    border-radius:10px;
+
+
+}
