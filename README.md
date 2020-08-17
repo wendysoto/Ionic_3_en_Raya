@@ -6,3 +6,7 @@ El proyecto se encuentra en dos tabs. el primer tab de Inicio consta de una brev
 
 El segundo Tab presenta el juego, en la parte superior se observa el turno del próximo jugador.
 En la siguiente parte se observa el jugador ganador terminada la partida y un botón que ayudará a reiniciar la partida de juego.
+
+### Perfil personal
+![myimage-alt-tag](https://github.com/wendysoto/CV_Ionic/blob/master/images/perfil.png)
+
